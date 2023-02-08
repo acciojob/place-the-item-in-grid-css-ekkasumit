@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+.conta{
+	display: grid;
+	grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+	background-color: lightcyan;
+}
+
+.conta > div {
+  background-color: grey;
+  border:1px solid black;
+  text-align: center;
+  justify-content: center;
+}
